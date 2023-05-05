@@ -43,12 +43,37 @@ body {
     border: #282828 solid 1px;
 }
 
-.card p {
+.card .p-name,.p-dev {
     text-align: center;
     position: relative;
     bottom: 30px;
 }
 
-.card p:nth-child(4) {
+.card .p-dev {
     font-size: small;
+}
+
+.info {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    display: flex;
+}
+.location svg{
+    margin-right: 5px;
+    position: relative;
+    bottom: 3px;
+}
+
+.location a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.location a:hover {
+    color: #949494;
+    border-bottom: 1px solid #949494;
 }
